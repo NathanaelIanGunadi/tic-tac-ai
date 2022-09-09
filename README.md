@@ -4,9 +4,9 @@ how to play:
   
   difficulties = [user, easy, medium, hard]
 
-  type "start [difficulty] [difficulty]" to start the game.
+  type "start [difficulty] [difficulty]" to start the game. example: 
     
-    example: start user hard
+    start user hard
     
   game grid is numbered as follows:
  ```   
@@ -17,6 +17,6 @@ how to play:
   3  | _ _ _ |
      ---------
 ```  
-  enter coordinates by typing "[row number] [column number]" (matrix numbering).
+  enter coordinates by typing "[row number] [column number]" (matrix numbering). example:
     
-    example: 2 2
+    2 2
