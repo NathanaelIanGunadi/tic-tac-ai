@@ -8,13 +8,13 @@ how to play:
     example: start user hard
     
   game grid is numbered as follows:
-    
+ ```   
        1 2 3
      ---------
   1  | _ _ _ |
   2  | _ _ _ |
   3  | _ _ _ |
      ---------
-  
-  enter coordinates by typing "[x] [y]"
+```  
+  enter coordinates by typing "[row number] [column number]" (matrix numbering)
     example: 2 2
