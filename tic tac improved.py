@@ -124,7 +124,7 @@ class Game:
         while True:
             start_menu = input("Input command:")
             start_menu = start_menu.split()
-            options = ["easy", "med", "medium", "hard"]
+            options = ["easy", "med", "medium", "hard", "user"]
 
             if start_menu[0] == "start":
                 if len(start_menu) != 3:
@@ -288,7 +288,7 @@ class Game:
             else:
                 break
 
-        return x, y
+        return x - 1, y - 1
 
     def get_next_move(self, player1, player2):
         if self.turn_count % 2 == 1:
